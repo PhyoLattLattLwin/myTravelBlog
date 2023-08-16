@@ -1,4 +1,4 @@
-import Logo from '../images/world.png'
+import Logo from '../images/world.jpg';
 export default function header() {
   return (
     <div>

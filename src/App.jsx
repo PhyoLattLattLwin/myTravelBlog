@@ -6,7 +6,7 @@ function App() {
 const card =  Data.map(data=>{
     return <Card 
       key ={data.key}
-      image = {data.image}
+      image = {data.image.Mount}
       title = {data.title}
       location = {data.location}
       googleMapsUrl ={data.googleMapsUrl}
